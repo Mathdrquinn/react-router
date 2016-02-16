@@ -1,2 +1,3 @@
-const text = 'module5';
-console.log(text);
+export default function() {
+  console.log('mod 1');
+}

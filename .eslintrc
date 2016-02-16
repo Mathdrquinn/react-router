@@ -1,6 +1,9 @@
 {
-  "extends": "airbnb",
-  "rules": {
-    "indent": [2, 2, {"SwitchCase": 1}]
-  }
+    "extends": "airbnb",
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+      "indent": [2, 2, {"SwitchCase": 1}]
+    }
 }
