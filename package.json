@@ -15,10 +15,16 @@
   "author": "Brendan Quinn <quinn.197@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "morgan": "^1.6.1",
+    "node-sass-middleware": "^0.9.7",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-redux": "^4.4.0",
-    "redux": "^3.3.1"
+    "redux": "^3.3.1",
+    "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
     "babel-loader": "^6.2.0",
