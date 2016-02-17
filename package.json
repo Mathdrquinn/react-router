@@ -4,7 +4,7 @@
   "description": "Frameowrk for react apps",
   "main": "index.js",
   "scripts": {
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base app --inline --hot",
+    "dev": "webpack-dev-server --content-base app --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
@@ -18,10 +18,12 @@
     "body-parser": "^1.15.0",
     "cookie-parser": "^1.4.1",
     "express": "^4.13.4",
+    "history": "^1.17.0",
     "morgan": "^1.6.1",
     "node-sass-middleware": "^0.9.7",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
+    "react-router": "^2.0.0",
     "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
